@@ -19,7 +19,7 @@ body{
 }
 
 .navbar-nav .nav-link:hover {
-    background: rgba(255,255,255,0.1);
+    background: #2a3b4c;
 }
 
 .row {
@@ -73,4 +73,18 @@ body{
 
 #submitBtn:hover {
     background-color: #0056b3;
+}
+
+.dropdown-menu-dark {
+    background-color: #344F64;
+    color: #d1e8ff;
+}
+
+.dropdown-menu-dark .dropdown-item {
+    color: #d1e8ff;
+}
+
+.dropdown-menu-dark .dropdown-item:hover {
+    background-color: #2a3b4c;
+    color: white;
 }
