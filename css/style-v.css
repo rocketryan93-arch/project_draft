@@ -1,12 +1,12 @@
 body{
 	background-color:#060F16;
 	color:#d1e8ff;
-	padding-top: 130px;
+	padding-top: 100px;
 }
 
 #header {
     background: #344F64;
-    padding: 15px 40px;
+    padding: 1px 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
