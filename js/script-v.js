@@ -29,3 +29,16 @@ newTab();
 function msg(){
 	alert("Thank you for letting us know! Your feedback is very important for us!");
 }
+
+function msg(event) {
+    const textarea = document.querySelector('form textarea');
+    if (textarea.value.trim() === "") {
+        alert("Please provide issue details before submitting!");
+		event.preventDefault();
+    } else {
+        alert("Thank you for letting us know! Your feedback is very important for us!");
+    }
+}
+
+const form = document.querySelector('form');
+form.addEventListener('submit', msg);
