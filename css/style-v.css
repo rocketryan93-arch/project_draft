@@ -1,7 +1,7 @@
 body{
 	background-color:#060F16;
 	color:#d1e8ff;
-	padding-top: 100px;
+	padding-top: 60px;
 }
 
 #header {
@@ -30,10 +30,6 @@ body{
     .row {
         justify-content: space-between;
     }
-	
-	#footer {
-        flex-direction: column;
-    }
 }
 
 .card-space{
@@ -47,7 +43,7 @@ body{
 #footer {
     display: flex;
     background: #344F64;
-    padding: 25px 0;
+    padding: 10px 0;
 }
 
 .foot {
